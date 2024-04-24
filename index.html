@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
 <title>Leila's React Native Portfolio Final</title>
 <style>
   /* Define a class for the projects section */
   .projects-section {
-    background-color: black;
+    background-color: rgb(8, 1, 1);
     color: white; /* Set text color to white for better visibility */
     padding: 20px; /* Add some padding for spacing */
   }
@@ -103,32 +104,60 @@
 
 <!-- Projects Section -->
 <div class="projects-section" id="projects">
-    
-  <h1>React Native/ Javascript Projects</h1>
-
-  <br>
-  <br>
-
-  <!-- Videos -->
-  <video class="left-align" width="450" height="300" controls>
-    <source src="https://i.imgur.com/0exEP0N.mp4" type="video/mp4">
-  </video>
-
-  <video class="right-align" width="450" height="300" controls>
-    <source src="https://i.imgur.com/S60IH3J.mp4" type="video/mp4">
-  </video>
-
-  <video class="right-align" width="450" height="300" controls>
-    <source src="https://i.imgur.com/aZ0gDRB.mp4" type="video/mp4">
-  </video>
-
-  <!-- Description -->
-  <p>Description</p>
-
-  <br>
-  <br>
-  <br>
-  <br>
+    <h1>React Native/ JavaScript Projects</h1>
+    <br>
+    <br>
+  
+    <!-- First Video -->
+    <div class="video-container">
+      <video class="left-align" width="450" height="300" controls>
+        <source src="https://i.imgur.com/0exEP0N.mp4" type="video/mp4">
+      </video>
+      <div class="description-box">
+        <p>This project, Lab 5 - Exercise App, focused on creating a <br>
+          React Native project and creating 2 screens in the app.js file.
+          <br>
+          Creating 2 exercise components and functioning repetition 
+          <br>
+          buttons.
+        </p>
+      </div>
+    </div>
+  
+    <br>
+  
+    <!-- Second Video -->
+    <div class="video-container">
+      <video class="right-align" width="450" height="300" controls>
+        <source src="https://i.imgur.com/S60IH3J.mp4" type="video/mp4">
+      </video>
+      <div class="description-box">
+        <p>This project, Lab 10 - Quiz App, focused on creating a <br>
+          React Native quiz app that accepts a list of questions
+          <br> and answers and renders them to the screen.
+          <br>
+          The quiz app must support True/False, Multiple Choice, and Multiple Answers.
+          <br>
+        </p>
+      </div>
+    </div>
+  
+    <br>
+  
+    <!-- Third Video -->
+    <div class="video-container">
+      <video class="right-align" width="450" height="300" controls>
+        <source src="https://i.imgur.com/aZ0gDRB.mp4" type="video/mp4">
+      </video>
+      <div class="description-box">
+        <p>This project, Exercise 7 - Expo Todo List, focused on creating a <br>
+        TODO app that provides an interface for users to add and complete tasks.
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+  
 
 
   <h1>Figma Projects</h1>
